@@ -11,6 +11,12 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('master PyCharm')
+#<<<<<<< HEAD   (the code I put in the master branch)
+#    print_hi('master PyCharm')
+#||||||| fe20b46 (the code in the parent commit)
+    print_hi('PyCharm')
+#======= (the code in the branch we merge from)
+#    print_hi('my PyCharm')
+#>>>>>>> featureA
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
